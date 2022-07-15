@@ -9,7 +9,7 @@ public class MyObject implements Runnable {
     public static void whileLoopExample() {
         int endPosition = 10;
         int startPosition = 4;
-        int numberOfIterations = endPosition - startPosition; // TODO - Determine the number of times this loop will iterate
+        int numberOfIterations = endPosition - startPosition;
         System.out.println("This will iterate " + numberOfIterations + " times");
 
         int numberOfTimesLooped = 0;
